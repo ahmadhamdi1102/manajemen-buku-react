@@ -181,7 +181,7 @@ function ManajemenBuku({ bookList, store, update, remove }) {
                     <Button
                       variant="danger"
                       size="sm"
-                      onClik={() => deleteBook(book)}
+                      onClick={() => deleteBook(book)}
                     >
                       Hapus
                     </Button>
